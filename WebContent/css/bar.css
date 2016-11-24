@@ -1,0 +1,106 @@
+.menubar {
+	min-width: 300px;
+	padding: 10px;
+	font-family: fontawesome;
+	font-size: large;
+	line-height: 1.6;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.header {
+	background: #3465a4;
+	border-radius: 5px;
+}
+
+.main-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.main-menu>li {
+	position: relative;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.main-menu a {
+	text-decoration: none;
+	display: block;
+	margin-left: -1px;
+	padding: 8px 10px;
+	color: #ffffff;
+ 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75); 
+}
+
+.main-menu a:hover {
+	background: #204a87;
+}
+
+label,  option, h2, select{
+	font-size: 15px;
+/* 	font-family: fontawesome; */
+	font-weight: normal;
+}
+
+h4{
+	font-family: fontawesome;
+}
+
+.main-menu .sub-menu  {
+	position: absolute;
+	left: 1px;
+	display: none;
+	width: 160px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #3465a4;
+	z-index: 1;
+}
+
+.main-menu .sub-menu-right{
+	position: absolute;
+	left: 1px;
+	display: none;
+	width: 64px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #3465a4;
+	z-index: 1;
+}
+
+.main-menu .sub-menu a {
+	margin-bottom: -1px;
+	border: 1px solid #e5e5e5;
+}
+
+.main-menu .sub-menu-right a {
+	margin-bottom: -1px;
+	border: 1px solid #e5e5e5;
+}
+
+.main-menu>li:hover .sub-menu  {
+	display: block;
+}
+
+.main-menu>li:hover .sub-menu-right  {
+	display: block;
+}
+
+#scrollup {
+	position: fixed; /* фиксированная позиция */
+	opacity: 0.8; /* прозрачность */
+	padding: 5px 5px 5px; /* отступы */
+	background: #888a85;
+	border-radius: 5px; /* скругление углов */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	right: 60px; /* отступ слева */
+	bottom: 100px; /* отступ снизу */
+	display: none; /* спрятать блок */
+	cursor: pointer;
+}

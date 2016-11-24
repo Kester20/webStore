@@ -1,0 +1,50 @@
+#fa{
+	font-size:120px;
+	color:#afaecc;
+	
+}
+
+#faSmall{
+	color:#afaecc;
+}
+
+#fa:HOVER,#faSmall:HOVER {
+	color: #204a87;
+}
+
+.item{
+	margin-top: 50px;
+	width: 250px;
+	height: 200px;
+}
+
+.table {
+	float: center;
+}
+
+#faa {
+	color: #ef2929;
+	font-size: 30px;
+}
+
+#faa:HOVER {
+	color: #a40000;
+}
+
+#faag {
+	color: #73d216;
+	font-size: 30px;
+}
+
+#faag:HOVER {
+	color: #4e9a06;
+}
+
+#faam {
+	color: #edd400;
+	font-size: 30px;
+}
+
+#faam:HOVER {
+	color: #c4a000;
+}

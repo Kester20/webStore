@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html>body #all {
+	height: auto;
+	min-height: 100%;
+}
+
+#all {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+#empty{
+	height:100px;
+}
+
+#footer {
+	bottom: 0;
+	left: 0;
+	margin-bottom: 10px;
+	position: absolute;
+	width: 100%;
+	display: block;
+	background: #d3d7cf; /* Цвет фона */
+	color: #fff;
+	height: 80px;
+	border-radius: 5px;
+}
+
+
+
+#content {
+	width: 100%;
+}
